@@ -1,0 +1,6 @@
+framework module Pods_BangTang_DemoTests {
+  umbrella header "Pods-BangTang_DemoTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

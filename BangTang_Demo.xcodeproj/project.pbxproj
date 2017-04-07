@@ -1,0 +1,892 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7127EEA498AD5DEF4DC651C2 /* Pods_BangTang_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BDED8748632E9F21BCE0FF5 /* Pods_BangTang_Demo.framework */; };
+		8422052E1E9726B30013C400 /* TopTitlesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8422052D1E9726B30013C400 /* TopTitlesCell.swift */; };
+		842205301E9726FA0013C400 /* BTTopTitlesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8422052F1E9726FA0013C400 /* BTTopTitlesViewController.swift */; };
+		842205331E97286D0013C400 /* banTangModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842205321E97286D0013C400 /* banTangModel.swift */; };
+		842205361E97825E0013C400 /* httpTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842205351E97825E0013C400 /* httpTool.swift */; };
+		842205391E97905C0013C400 /* bantangViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842205381E97905C0013C400 /* bantangViewModel.swift */; };
+		848226471E960B0100827D8E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848226461E960B0100827D8E /* AppDelegate.swift */; };
+		848226491E960B0100827D8E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848226481E960B0100827D8E /* ViewController.swift */; };
+		8482264C1E960B0100827D8E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8482264A1E960B0100827D8E /* Main.storyboard */; };
+		8482264E1E960B0100827D8E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8482264D1E960B0100827D8E /* Assets.xcassets */; };
+		848226511E960B0100827D8E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8482264F1E960B0100827D8E /* LaunchScreen.storyboard */; };
+		8482265C1E960B0100827D8E /* BangTang_DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8482265B1E960B0100827D8E /* BangTang_DemoTests.swift */; };
+		848226671E960B0100827D8E /* BangTang_DemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848226661E960B0100827D8E /* BangTang_DemoUITests.swift */; };
+		848226851E960C9B00827D8E /* BTMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848226841E960C9B00827D8E /* BTMeViewController.swift */; };
+		848226871E960CC300827D8E /* BTClassifyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848226861E960CC300827D8E /* BTClassifyViewController.swift */; };
+		848226891E960CDD00827D8E /* BTDanPinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848226881E960CDD00827D8E /* BTDanPinViewController.swift */; };
+		8482268B1E960CF700827D8E /* BTBanTangViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8482268A1E960CF700827D8E /* BTBanTangViewController.swift */; };
+		8482268D1E960DBD00827D8E /* BTTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8482268C1E960DBD00827D8E /* BTTabBarController.swift */; };
+		848226931E9628DE00827D8E /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848226921E9628DE00827D8E /* File.swift */; };
+		848226961E962B7200827D8E /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848226951E962B7200827D8E /* UIView+Extension.swift */; };
+		E65DA96FBD120AC19D4016D1 /* Pods_BangTang_DemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 027E443AC88FCA73DEBE4277 /* Pods_BangTang_DemoUITests.framework */; };
+		E668AFD19FE824E1B5DF4B5D /* Pods_BangTang_DemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0580607DBBFDEFA6232F3FDC /* Pods_BangTang_DemoTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		848226581E960B0100827D8E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8482263B1E960B0000827D8E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 848226421E960B0100827D8E;
+			remoteInfo = BangTang_Demo;
+		};
+		848226631E960B0100827D8E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8482263B1E960B0000827D8E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 848226421E960B0100827D8E;
+			remoteInfo = BangTang_Demo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		027E443AC88FCA73DEBE4277 /* Pods_BangTang_DemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BangTang_DemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0580607DBBFDEFA6232F3FDC /* Pods_BangTang_DemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BangTang_DemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		42B5DD8382591E45596ACF42 /* Pods-BangTang_DemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BangTang_DemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BangTang_DemoUITests/Pods-BangTang_DemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		58E3C578B24B8747B28ADAE8 /* Pods-BangTang_Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BangTang_Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BangTang_Demo/Pods-BangTang_Demo.debug.xcconfig"; sourceTree = "<group>"; };
+		744CE49990F81B780F5D1DB9 /* Pods-BangTang_DemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BangTang_DemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BangTang_DemoTests/Pods-BangTang_DemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		8422052D1E9726B30013C400 /* TopTitlesCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopTitlesCell.swift; sourceTree = "<group>"; };
+		8422052F1E9726FA0013C400 /* BTTopTitlesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BTTopTitlesViewController.swift; sourceTree = "<group>"; };
+		842205321E97286D0013C400 /* banTangModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = banTangModel.swift; sourceTree = "<group>"; };
+		842205351E97825E0013C400 /* httpTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = httpTool.swift; sourceTree = "<group>"; };
+		842205381E97905C0013C400 /* bantangViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = bantangViewModel.swift; sourceTree = "<group>"; };
+		848226431E960B0100827D8E /* BangTang_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BangTang_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		848226461E960B0100827D8E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		848226481E960B0100827D8E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8482264B1E960B0100827D8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8482264D1E960B0100827D8E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		848226501E960B0100827D8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		848226521E960B0100827D8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		848226571E960B0100827D8E /* BangTang_DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BangTang_DemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8482265B1E960B0100827D8E /* BangTang_DemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BangTang_DemoTests.swift; sourceTree = "<group>"; };
+		8482265D1E960B0100827D8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		848226621E960B0100827D8E /* BangTang_DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BangTang_DemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		848226661E960B0100827D8E /* BangTang_DemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BangTang_DemoUITests.swift; sourceTree = "<group>"; };
+		848226681E960B0100827D8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		848226841E960C9B00827D8E /* BTMeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BTMeViewController.swift; sourceTree = "<group>"; };
+		848226861E960CC300827D8E /* BTClassifyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BTClassifyViewController.swift; sourceTree = "<group>"; };
+		848226881E960CDD00827D8E /* BTDanPinViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BTDanPinViewController.swift; sourceTree = "<group>"; };
+		8482268A1E960CF700827D8E /* BTBanTangViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BTBanTangViewController.swift; sourceTree = "<group>"; };
+		8482268C1E960DBD00827D8E /* BTTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BTTabBarController.swift; sourceTree = "<group>"; };
+		848226921E9628DE00827D8E /* File.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		848226951E962B7200827D8E /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		978F68CE726AC6B8ABF0E70A /* Pods-BangTang_Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BangTang_Demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-BangTang_Demo/Pods-BangTang_Demo.release.xcconfig"; sourceTree = "<group>"; };
+		9BDED8748632E9F21BCE0FF5 /* Pods_BangTang_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BangTang_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE2930324C9CE0651462D4DE /* Pods-BangTang_DemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BangTang_DemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BangTang_DemoUITests/Pods-BangTang_DemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F9C2313F601C192E97C395F1 /* Pods-BangTang_DemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BangTang_DemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BangTang_DemoTests/Pods-BangTang_DemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		848226401E960B0100827D8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7127EEA498AD5DEF4DC651C2 /* Pods_BangTang_Demo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		848226541E960B0100827D8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E668AFD19FE824E1B5DF4B5D /* Pods_BangTang_DemoTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8482265F1E960B0100827D8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E65DA96FBD120AC19D4016D1 /* Pods_BangTang_DemoUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A0E3DC49214F59CC65B62C9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				58E3C578B24B8747B28ADAE8 /* Pods-BangTang_Demo.debug.xcconfig */,
+				978F68CE726AC6B8ABF0E70A /* Pods-BangTang_Demo.release.xcconfig */,
+				F9C2313F601C192E97C395F1 /* Pods-BangTang_DemoTests.debug.xcconfig */,
+				744CE49990F81B780F5D1DB9 /* Pods-BangTang_DemoTests.release.xcconfig */,
+				42B5DD8382591E45596ACF42 /* Pods-BangTang_DemoUITests.debug.xcconfig */,
+				CE2930324C9CE0651462D4DE /* Pods-BangTang_DemoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		842205311E97282F0013C400 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				842205321E97286D0013C400 /* banTangModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		842205341E97820E0013C400 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				842205351E97825E0013C400 /* httpTool.swift */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		842205371E97903C0013C400 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				842205381E97905C0013C400 /* bantangViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		8482263A1E960B0000827D8E = {
+			isa = PBXGroup;
+			children = (
+				848226451E960B0100827D8E /* BangTang_Demo */,
+				8482265A1E960B0100827D8E /* BangTang_DemoTests */,
+				848226651E960B0100827D8E /* BangTang_DemoUITests */,
+				848226441E960B0100827D8E /* Products */,
+				0A0E3DC49214F59CC65B62C9 /* Pods */,
+				D0912856210734B32B9CD61D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		848226441E960B0100827D8E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				848226431E960B0100827D8E /* BangTang_Demo.app */,
+				848226571E960B0100827D8E /* BangTang_DemoTests.xctest */,
+				848226621E960B0100827D8E /* BangTang_DemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		848226451E960B0100827D8E /* BangTang_Demo */ = {
+			isa = PBXGroup;
+			children = (
+				848226791E960BD600827D8E /* modules */,
+				848226761E960B7100827D8E /* TabBar */,
+				848226461E960B0100827D8E /* AppDelegate.swift */,
+				848226481E960B0100827D8E /* ViewController.swift */,
+				8482264A1E960B0100827D8E /* Main.storyboard */,
+				8482264D1E960B0100827D8E /* Assets.xcassets */,
+				8482264F1E960B0100827D8E /* LaunchScreen.storyboard */,
+				848226521E960B0100827D8E /* Info.plist */,
+			);
+			path = BangTang_Demo;
+			sourceTree = "<group>";
+		};
+		8482265A1E960B0100827D8E /* BangTang_DemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				8482265B1E960B0100827D8E /* BangTang_DemoTests.swift */,
+				8482265D1E960B0100827D8E /* Info.plist */,
+			);
+			path = BangTang_DemoTests;
+			sourceTree = "<group>";
+		};
+		848226651E960B0100827D8E /* BangTang_DemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				848226661E960B0100827D8E /* BangTang_DemoUITests.swift */,
+				848226681E960B0100827D8E /* Info.plist */,
+			);
+			path = BangTang_DemoUITests;
+			sourceTree = "<group>";
+		};
+		848226761E960B7100827D8E /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				8482268C1E960DBD00827D8E /* BTTabBarController.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		848226791E960BD600827D8E /* modules */ = {
+			isa = PBXGroup;
+			children = (
+				842205341E97820E0013C400 /* Tool */,
+				848226941E962B5600827D8E /* Util */,
+				8482268E1E96268800827D8E /* define */,
+				8482267E1E960C5000827D8E /* Me */,
+				8482267D1E960C4300827D8E /* fenlei */,
+				8482267C1E960C2D00827D8E /* danpin */,
+				8482267A1E960BF500827D8E /* bantang */,
+			);
+			path = modules;
+			sourceTree = "<group>";
+		};
+		8482267A1E960BF500827D8E /* bantang */ = {
+			isa = PBXGroup;
+			children = (
+				842205371E97903C0013C400 /* ViewModel */,
+				842205311E97282F0013C400 /* Model */,
+				8482267B1E960C0900827D8E /* Controllers */,
+			);
+			path = bantang;
+			sourceTree = "<group>";
+		};
+		8482267B1E960C0900827D8E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8482268A1E960CF700827D8E /* BTBanTangViewController.swift */,
+				8422052D1E9726B30013C400 /* TopTitlesCell.swift */,
+				8422052F1E9726FA0013C400 /* BTTopTitlesViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		8482267C1E960C2D00827D8E /* danpin */ = {
+			isa = PBXGroup;
+			children = (
+				848226831E960C8100827D8E /* Controllers */,
+			);
+			path = danpin;
+			sourceTree = "<group>";
+		};
+		8482267D1E960C4300827D8E /* fenlei */ = {
+			isa = PBXGroup;
+			children = (
+				848226821E960C7A00827D8E /* Controllers */,
+			);
+			path = fenlei;
+			sourceTree = "<group>";
+		};
+		8482267E1E960C5000827D8E /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				848226811E960C7500827D8E /* Controllers */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		848226811E960C7500827D8E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				848226841E960C9B00827D8E /* BTMeViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		848226821E960C7A00827D8E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				848226861E960CC300827D8E /* BTClassifyViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		848226831E960C8100827D8E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				848226881E960CDD00827D8E /* BTDanPinViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		8482268E1E96268800827D8E /* define */ = {
+			isa = PBXGroup;
+			children = (
+				848226921E9628DE00827D8E /* File.swift */,
+			);
+			path = define;
+			sourceTree = "<group>";
+		};
+		848226941E962B5600827D8E /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				848226951E962B7200827D8E /* UIView+Extension.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		D0912856210734B32B9CD61D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9BDED8748632E9F21BCE0FF5 /* Pods_BangTang_Demo.framework */,
+				0580607DBBFDEFA6232F3FDC /* Pods_BangTang_DemoTests.framework */,
+				027E443AC88FCA73DEBE4277 /* Pods_BangTang_DemoUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		848226421E960B0100827D8E /* BangTang_Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8482266B1E960B0100827D8E /* Build configuration list for PBXNativeTarget "BangTang_Demo" */;
+			buildPhases = (
+				5D1094412AA547C68A751FEE /* [CP] Check Pods Manifest.lock */,
+				8482263F1E960B0100827D8E /* Sources */,
+				848226401E960B0100827D8E /* Frameworks */,
+				848226411E960B0100827D8E /* Resources */,
+				82C738B8AEA1B97251A50F18 /* [CP] Embed Pods Frameworks */,
+				334808FD743D55371B960BC5 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BangTang_Demo;
+			productName = BangTang_Demo;
+			productReference = 848226431E960B0100827D8E /* BangTang_Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		848226561E960B0100827D8E /* BangTang_DemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8482266E1E960B0100827D8E /* Build configuration list for PBXNativeTarget "BangTang_DemoTests" */;
+			buildPhases = (
+				127E518EB30E145A0E61B785 /* [CP] Check Pods Manifest.lock */,
+				848226531E960B0100827D8E /* Sources */,
+				848226541E960B0100827D8E /* Frameworks */,
+				848226551E960B0100827D8E /* Resources */,
+				9DD94E240F4008BD1DC71C1B /* [CP] Embed Pods Frameworks */,
+				3332E809671EE87C7F016B93 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				848226591E960B0100827D8E /* PBXTargetDependency */,
+			);
+			name = BangTang_DemoTests;
+			productName = BangTang_DemoTests;
+			productReference = 848226571E960B0100827D8E /* BangTang_DemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		848226611E960B0100827D8E /* BangTang_DemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 848226711E960B0100827D8E /* Build configuration list for PBXNativeTarget "BangTang_DemoUITests" */;
+			buildPhases = (
+				B1AFB18C95461C330C3548E1 /* [CP] Check Pods Manifest.lock */,
+				8482265E1E960B0100827D8E /* Sources */,
+				8482265F1E960B0100827D8E /* Frameworks */,
+				848226601E960B0100827D8E /* Resources */,
+				04EEDE77F0069C16AF9663F2 /* [CP] Embed Pods Frameworks */,
+				FCD9D6EA4EB04A322B09CFBF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				848226641E960B0100827D8E /* PBXTargetDependency */,
+			);
+			name = BangTang_DemoUITests;
+			productName = BangTang_DemoUITests;
+			productReference = 848226621E960B0100827D8E /* BangTang_DemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8482263B1E960B0000827D8E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = com.gz.bingoMobileSchools;
+				TargetAttributes = {
+					848226421E960B0100827D8E = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+					};
+					848226561E960B0100827D8E = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 848226421E960B0100827D8E;
+					};
+					848226611E960B0100827D8E = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 848226421E960B0100827D8E;
+					};
+				};
+			};
+			buildConfigurationList = 8482263E1E960B0000827D8E /* Build configuration list for PBXProject "BangTang_Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8482263A1E960B0000827D8E;
+			productRefGroup = 848226441E960B0100827D8E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				848226421E960B0100827D8E /* BangTang_Demo */,
+				848226561E960B0100827D8E /* BangTang_DemoTests */,
+				848226611E960B0100827D8E /* BangTang_DemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		848226411E960B0100827D8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				848226511E960B0100827D8E /* LaunchScreen.storyboard in Resources */,
+				8482264E1E960B0100827D8E /* Assets.xcassets in Resources */,
+				8482264C1E960B0100827D8E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		848226551E960B0100827D8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		848226601E960B0100827D8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		04EEDE77F0069C16AF9663F2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BangTang_DemoUITests/Pods-BangTang_DemoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		127E518EB30E145A0E61B785 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3332E809671EE87C7F016B93 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BangTang_DemoTests/Pods-BangTang_DemoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		334808FD743D55371B960BC5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BangTang_Demo/Pods-BangTang_Demo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5D1094412AA547C68A751FEE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		82C738B8AEA1B97251A50F18 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BangTang_Demo/Pods-BangTang_Demo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9DD94E240F4008BD1DC71C1B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BangTang_DemoTests/Pods-BangTang_DemoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B1AFB18C95461C330C3548E1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FCD9D6EA4EB04A322B09CFBF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BangTang_DemoUITests/Pods-BangTang_DemoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8482263F1E960B0100827D8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				848226491E960B0100827D8E /* ViewController.swift in Sources */,
+				848226871E960CC300827D8E /* BTClassifyViewController.swift in Sources */,
+				8422052E1E9726B30013C400 /* TopTitlesCell.swift in Sources */,
+				848226891E960CDD00827D8E /* BTDanPinViewController.swift in Sources */,
+				842205391E97905C0013C400 /* bantangViewModel.swift in Sources */,
+				848226961E962B7200827D8E /* UIView+Extension.swift in Sources */,
+				842205331E97286D0013C400 /* banTangModel.swift in Sources */,
+				8482268D1E960DBD00827D8E /* BTTabBarController.swift in Sources */,
+				842205361E97825E0013C400 /* httpTool.swift in Sources */,
+				848226471E960B0100827D8E /* AppDelegate.swift in Sources */,
+				848226931E9628DE00827D8E /* File.swift in Sources */,
+				842205301E9726FA0013C400 /* BTTopTitlesViewController.swift in Sources */,
+				8482268B1E960CF700827D8E /* BTBanTangViewController.swift in Sources */,
+				848226851E960C9B00827D8E /* BTMeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		848226531E960B0100827D8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8482265C1E960B0100827D8E /* BangTang_DemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8482265E1E960B0100827D8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				848226671E960B0100827D8E /* BangTang_DemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		848226591E960B0100827D8E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 848226421E960B0100827D8E /* BangTang_Demo */;
+			targetProxy = 848226581E960B0100827D8E /* PBXContainerItemProxy */;
+		};
+		848226641E960B0100827D8E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 848226421E960B0100827D8E /* BangTang_Demo */;
+			targetProxy = 848226631E960B0100827D8E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8482264A1E960B0100827D8E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8482264B1E960B0100827D8E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8482264F1E960B0100827D8E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				848226501E960B0100827D8E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		848226691E960B0100827D8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8482266A1E960B0100827D8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8482266C1E960B0100827D8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58E3C578B24B8747B28ADAE8 /* Pods-BangTang_Demo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BangTang_Demo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gz.bingo.BangTang-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		8482266D1E960B0100827D8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 978F68CE726AC6B8ABF0E70A /* Pods-BangTang_Demo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BangTang_Demo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gz.bingo.BangTang-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		8482266F1E960B0100827D8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9C2313F601C192E97C395F1 /* Pods-BangTang_DemoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BangTang_DemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gz.bingo.BangTang-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BangTang_Demo.app/BangTang_Demo";
+			};
+			name = Debug;
+		};
+		848226701E960B0100827D8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 744CE49990F81B780F5D1DB9 /* Pods-BangTang_DemoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BangTang_DemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gz.bingo.BangTang-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BangTang_Demo.app/BangTang_Demo";
+			};
+			name = Release;
+		};
+		848226721E960B0100827D8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42B5DD8382591E45596ACF42 /* Pods-BangTang_DemoUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = BangTang_DemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gz.bingo.BangTang-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = BangTang_Demo;
+			};
+			name = Debug;
+		};
+		848226731E960B0100827D8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE2930324C9CE0651462D4DE /* Pods-BangTang_DemoUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = BangTang_DemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gz.bingo.BangTang-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = BangTang_Demo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8482263E1E960B0000827D8E /* Build configuration list for PBXProject "BangTang_Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				848226691E960B0100827D8E /* Debug */,
+				8482266A1E960B0100827D8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8482266B1E960B0100827D8E /* Build configuration list for PBXNativeTarget "BangTang_Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8482266C1E960B0100827D8E /* Debug */,
+				8482266D1E960B0100827D8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8482266E1E960B0100827D8E /* Build configuration list for PBXNativeTarget "BangTang_DemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8482266F1E960B0100827D8E /* Debug */,
+				848226701E960B0100827D8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		848226711E960B0100827D8E /* Build configuration list for PBXNativeTarget "BangTang_DemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				848226721E960B0100827D8E /* Debug */,
+				848226731E960B0100827D8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8482263B1E960B0000827D8E /* Project object */;
+}
